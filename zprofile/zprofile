@@ -1,0 +1,10 @@
+# Set PATH, MANPATH, etc., for Homebrew.
+# eval "$(/opt/homebrew/bin/brew shellenv)" # this was messing with my venvs
+export PATH=/opt/homebrew/bin:$PATH # But now i need to manually readd brew to my path
+
+# Latex Settings
+export PATH=/Library/TeX/texbin/latexmk:$PATH
+
+# Keep things clean
+export PROMPT="$ "
+alias sb="source ~/.zprofile"
